@@ -1,0 +1,34 @@
+.tile{
+    background-color: black;
+    margin-top: 20px;
+    justify-content: center;
+    width: 600px;
+    margin-left: 10px;
+    height:600px;
+    border: 2px solid lightgray;
+    border-radius: 20px;
+    color: white;
+}
+h1{
+    margin-left: 220px;
+    padding: 0px;
+}
+.premium{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+li{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.newPlan{
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding:10px;
+    margin-left: 250px;
+    cursor: pointer;
+}
+.newPlan:hover{
+    background-color: lightgray;
+}
