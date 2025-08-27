@@ -1,0 +1,106 @@
+nav{
+  background-color: black;
+  margin-top: 0 auto;
+  padding-top: 0 auto;
+  height: 60px;
+}
+a{
+  text-decoration: none;
+  font-size: 35px;
+  padding: 15px;
+  color: white;
+}
+.navInput{
+    width: 400px;
+    height: 35px;
+    margin-left:50px;
+    border-radius: 20px;
+}
+.navPremium{
+  border-radius: 80%;
+  cursor: pointer;
+}
+.navMore{
+  border-radius: 80%;
+  cursor: pointer;
+}
+button{
+    height: 52px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+}
+.nav-cart{
+  border-radius: 80%;
+  cursor: pointer;
+}
+.nav-support{
+  margin-left: 20px;
+  border-radius: 80%;
+  cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color:black
+}
+.navOrders{
+  border-radius: 80%;
+  cursor: pointer;
+}
+.signInNav{
+  margin-left: 10px;
+  border-radius: 80%;
+  cursor: pointer;
+}
+.more-drop-down{
+  position:absolute;
+  border: 1px solid lightgray;
+  box-shadow: 0px 4px 6px  rgba(0,0,0,0.1);
+  overflow-y: auto;
+  border-radius: 4px;
+  margin-top: 5px;
+  margin-left: 300px;
+  height: 400px;
+  width:450px;
+  background-color: white;
+}
+.search-item{
+  display: block;
+  padding: 10px;
+  border: 1px solid lightgray;
+  color: black;
+  font-size: 15px;
+  opacity:10;
+}
+.search-item:hover{
+  background-color: lightgray;
+}
+.more-button-drop{
+  position:absolute;
+  margin-left: 950px;
+  margin-top: 5px;
+  border: 1px solid lightgray;
+  box-shadow: 2px 4px 6px lightgray;
+  height: 220px;
+  width: 200px;
+  float: right;
+  background-color: white;
+  overflow-y: auto;
+}
+.more-search-item{
+  display: block;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  border-bottom: 0px;
+  text-decoration-line: none;
+}
+.more-search-item:hover{
+  background-color:lightgray;
+}
+.homeLogo:hover{
+  text-decoration-line:none;
+  cursor: pointer;
+}
